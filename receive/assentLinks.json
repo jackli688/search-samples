@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.recipe_app",
+    "sha256_cert_fingerprints":
+    ["A2:5C:E8:1E:55:0B:B3:50:49:77:6F:77:9E:89:2E:84:4D:9E:1D:82:1A:4B:8B:10:70:41:56:49:DF:79:5A:DD"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://recipe-app.com"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.recipe_app",
+    "sha256_cert_fingerprints":
+    ["A2:5C:E8:1E:55:0B:B3:50:49:77:6F:77:9E:89:2E:84:4D:9E:1D:82:1A:4B:8B:10:70:41:56:49:DF:79:5A:DD"]
+  }
+}]
